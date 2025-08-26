@@ -5,7 +5,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <footer className="bg-black text-white py-12 relative overflow-hidden">
+        <footer id="contact" className="bg-black text-white py-12 relative overflow-hidden">
             {/* Background Text */}
             <h1 className="absolute inset-0 flex justify-center items-center text-[10rem] font-bold text-neutral-900/80 select-none tracking-widest">
                 ABDUL RAHIM

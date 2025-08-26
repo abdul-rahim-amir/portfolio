@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function HeroSection() {
     return (
-        <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black text-white">
+        <div id="home" className="min-h-screen relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black text-white">
             {/* Background overlay for depth */}
             <div className="absolute inset-0 bg-black/40 z-0"></div>
 
@@ -36,7 +36,7 @@ export default function HeroSection() {
                     <Link
                         href="https://www.linkedin.com/in/abdulrahimamir/"
                         target="_blank"
-                        className="hover:text-blue-600"
+                        className="hover:text-[#0077B5]"
                     >
                         <FaLinkedin />
                     </Link>
@@ -68,21 +68,12 @@ export default function HeroSection() {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
                 </div>
-
                 {/* Navigation Menu */}
                 <div className="bg-black/70 backdrop-blur-sm px-8 py-3 rounded-2xl shadow-md flex items-center space-x-8 text-gray-300 mb-8">
-                    <Link href="#" className="hover:text-white">
-                        Home
-                    </Link>
-                    <Link href="#" className="hover:text-white">
-                        Work
-                    </Link>
-                    <Link href="#" className="hover:text-white">
-                        About
-                    </Link>
-                    <Link href="#" className="hover:text-white">
-                        Contact
-                    </Link>
+                    <a href="#home" className="hover:text-white">Home</a>
+                    <a href="#work" className="hover:text-white">Work</a>
+                    <a href="#about" className="hover:text-white">About</a>
+                    <a href="#contact" className="hover:text-white">Contact</a>
                 </div>
 
                 {/* Intro Text */}
@@ -97,9 +88,7 @@ export default function HeroSection() {
                     </Link>
                     , currently offering my services online to clients worldwide.
                 </p>
-
             </div>
-
             {/* Decorative gradient elements */}
             <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent pointer-events-none"></div>
             <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-radial from-white/5 to-transparent rounded-full blur-3xl pointer-events-none"></div>
