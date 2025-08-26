@@ -13,23 +13,30 @@ export default function HeroSection() {
             {/* Top Navigation */}
             <div className="absolute top-0 left-0 w-full flex justify-between items-center px-8 py-6 z-20">
                 {/* BOOK A MEETING Button */}
-                <button className="border border-white/30 text-white px-6 py-2.5 rounded-lg text-sm font-light hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm">
-                    BOOK A MEETING
-                </button>
+                <a
+                    href="https://cal.com/abdul-rahim-amir/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <button className="border border-white/30 text-white px-6 py-2.5 rounded-lg text-sm font-light hover:bg-white hover:text-black transition-all duration-300 backdrop-blur-sm">
+                        BOOK A MEETING
+                    </button>
+                </a>
+
 
                 {/* Social Links */}
                 <div className="flex space-x-6 text-xl">
                     <Link
-                        href="https://github.com/your-username"
+                        href="https://github.com/abdul-rahim-amir"
                         target="_blank"
-                        className="hover:text-gray-400"
+                        className="hover:text-white"
                     >
                         <FaGithub />
                     </Link>
                     <Link
-                        href="https://www.linkedin.com/in/your-profile"
+                        href="https://www.linkedin.com/in/abdulrahimamir/"
                         target="_blank"
-                        className="hover:text-gray-400"
+                        className="hover:text-blue-600"
                     >
                         <FaLinkedin />
                     </Link>
