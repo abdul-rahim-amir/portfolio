@@ -5,21 +5,21 @@ import Image from "next/image";
 const testimonials = [
     {
         id: 1,
-        text: "I'm genuinely impressed with the final result of the portfolio website. It's visually appealing, easy to navigate, and does an amazing job presenting my projects. The attention to detail and smooth interactions really set it apart. I've already seen a boost in engagement.",
-        author: "Emily",
+        text: "I recently hired Abdul Rahim to design the FertilityONE mobile app. He did a fantastic job professional, skilled, and easy to work with. He understood the vision clearly and delivered a smooth, user-friendly app on time. Highly recommend him for any mobile app development work!",
+        author: "Afaq Ahmed",
         avatar: "/assets/client1.png", // from public folder
     },
     {
         id: 2,
-        text: "This portfolio website turned out even better than I imagined! Its sleek, modern design highlights my work beautifully, and the seamless animations give it a unique edge. I've gotten tons of positive feedback from clients and recruiters.",
-        author: "William",
-        avatar: "/assets/client1.png",
+        text: "I recently hired Abdul Rahim to design the website for my perfume brand.He did a fantastic job professional, skilled, and easy to work with. He understood the vision clearly and delivered a smooth, user-friendly website on time. Highly recommend him for websites development",
+        author: "Abdul Basit",
+        avatar: "/assets/client2.png",
     },
     {
         id: 3,
-        text: "The portfolio website exceeded my expectations! The clean and modern design perfectly showcases my work, and the smooth animations make it stand out. I've received so many compliments from clients and recruiters. Highly recommended!",
-        author: "Alex Bell",
-        avatar: "/assets/client1.png",
+        text: "Abdul Rahim developed my website for IRTH Advisors, and I am extremely satisfied with his services. He demonstrated professionalism, delivered the project on time, and ensured the highest quality standards. I highly recommend his services.",
+        author: "Rauf Shakori",
+        avatar: "/assets/client3.png",
     },
 ];
 

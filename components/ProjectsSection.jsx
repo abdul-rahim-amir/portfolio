@@ -21,10 +21,8 @@ export default function ModernPortfolioSection() {
                     rk
                 </h2>
             </div>
-
             {/* Projects Grid - Will scroll over the sticky text */}
             <div className="relative z-20 max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12 px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 md:pt-16 pb-16 sm:pb-24 md:pb-32">
-
                 {/* Fertility One */}
                 <div className="relative bg-gradient-to-br from-cyan-300/90 to-cyan-600/90 backdrop-blur-sm rounded-xl sm:rounded-2xl lg:rounded-3xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 overflow-hidden cursor-pointer border border-white/10 hover:scale-105 transition-transform duration-300">
                     <div className="absolute inset-0">
@@ -43,7 +41,6 @@ export default function ModernPortfolioSection() {
                         <Image src={fertilityOneImg} alt="Fertility One" className="w-full h-auto" />
                     </div>
                 </div>
-
                 {/* IRTH Advisors */}
                 <div className="relative bg-gradient-to-br from-yellow-700/90 to-yellow-950/90 backdrop-blur-sm rounded-xl sm:rounded-2xl lg:rounded-3xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 overflow-hidden cursor-pointer border border-white/10 hover:scale-105 transition-transform duration-300">
                     <div className="absolute inset-0">
@@ -62,7 +59,6 @@ export default function ModernPortfolioSection() {
                         <Image src={irthImage} alt="Irth Image" className="w-full h-auto" />
                     </div>
                 </div>
-
                 {/* Travel Tribes */}
                 <div className="relative bg-gradient-to-br from-sky-200/90 to-sky-500/90 backdrop-blur-sm rounded-xl sm:rounded-2xl lg:rounded-3xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 overflow-hidden cursor-pointer border border-white/10 hover:scale-105 transition-transform duration-300">
                     <div className="absolute inset-0">
@@ -83,7 +79,6 @@ export default function ModernPortfolioSection() {
                         <Image src={travelTribesImage} alt="Travel Tribes Image" className="w-full h-auto" />
                     </div>
                 </div>
-
                 {/* WeLux Chauffeur */}
                 <div className="relative bg-gradient-to-br from-zinc-500/90 to-zinc-700/90 backdrop-blur-sm rounded-xl sm:rounded-2xl lg:rounded-3xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 overflow-hidden cursor-pointer border border-white/10 hover:scale-105 transition-transform duration-300">
                     <div className="absolute inset-0">
@@ -105,7 +100,6 @@ export default function ModernPortfolioSection() {
                         <Image src={weLuxxImage} alt="WeLux Image" className="w-full h-auto" />
                     </div>
                 </div>
-
                 {/* Durkha Elixirs */}
                 <div className="relative bg-gradient-to-br from-neutral-300/90 to-neutral-900/90 backdrop-blur-sm rounded-xl sm:rounded-2xl lg:rounded-3xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 overflow-hidden cursor-pointer border border-white/10 hover:scale-105 transition-transform duration-300">
                     <div className="absolute inset-0">
@@ -128,7 +122,6 @@ export default function ModernPortfolioSection() {
                         <Image src={durkhaElixirsImage} alt="Durkha Elixirs Image" className="w-full h-auto" />
                     </div>
                 </div>
-
                 {/* GoZentric */}
                 <div className="relative bg-gradient-to-br from-emerald-100/90 to-green-200/90 backdrop-blur-sm rounded-xl sm:rounded-2xl lg:rounded-3xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 overflow-hidden cursor-pointer border border-white/10 hover:scale-105 transition-transform duration-300">
                     <div className="absolute inset-0">
@@ -155,10 +148,8 @@ export default function ModernPortfolioSection() {
                         <Image src={goZentricImage} alt="GoZentric Image" className="w-full h-auto" />
                     </div>
                 </div>
-
                 {/* Extra space */}
-                <div className="col-span-full h-16 sm:h-20 md:h-24 lg:h-32"></div>
-
+                <div className="col-span-full h-186 sm:h-20 md:h-24 lg:h-92"></div>
             </div>
         </section>
     );
