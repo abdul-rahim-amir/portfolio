@@ -25,14 +25,13 @@ export default function ModernPortfolioSection() {
 
             {/* Projects Grid */}
             <div className="relative z-20 max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12 px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 md:pt-16 pb-16 sm:pb-24 md:pb-32">
-                
                 {/* Fertility One */}
-                <div className="relative bg-gradient-to-br from-cyan-300/90 to-cyan-600/90 rounded-xl sm:rounded-2xl lg:rounded-3xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 border border-white/10 hover:scale-105 transition-transform duration-300 overflow-hidden">
+                <div className="relative bg-gradient-to-br from-cyan-500/90 to-cyan-800/90 rounded-xl sm:rounded-2xl lg:rounded-3xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 border border-white/10 hover:scale-105 transition-transform duration-300 overflow-hidden">
                     <div className="relative h-full flex flex-col justify-between">
                         <div>
                             <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white">Fertility One</h3>
-                            <p className="text-white/70 text-xs sm:text-sm mb-1">UI/UX design</p>
-                            <p className="text-white/60 text-xs">A mobile app for fertility tracking with a modern, intuitive UI.</p>
+                            <p className="text-white/90 text-xs sm:text-sm mb-1">UI/UX design</p>
+                            <p className="text-white/80 text-xs">A mobile app for fertility tracking with a modern, intuitive UI.</p>
                         </div>
                         <a href="/projects/fertility-one" target="_blank" rel="noopener noreferrer"
                             className="inline-block border border-white/30 text-white text-xs px-3 py-1.5 rounded-lg hover:bg-white hover:text-black transition-all duration-300 w-fit">
@@ -63,12 +62,12 @@ export default function ModernPortfolioSection() {
                 </div>
 
                 {/* Travel Tribes */}
-                <div className="relative bg-gradient-to-br from-sky-200/90 to-sky-500/90 rounded-xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 border border-white/10 hover:scale-105 transition-transform duration-300 overflow-hidden">
+                <div className="relative bg-gradient-to-br from-sky-400/90 to-sky-700/90 rounded-xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 border border-white/10 hover:scale-105 transition-transform duration-300 overflow-hidden">
                     <div className="relative h-full flex flex-col justify-between">
                         <div>
                             <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white">Travel Tribes</h3>
-                            <p className="text-white/70 text-xs sm:text-sm mb-1">UI/UX Design</p>
-                            <p className="text-white/60 text-xs">A travel community platform connecting explorers worldwide.</p>
+                            <p className="text-white/90 text-xs sm:text-sm mb-1">UI/UX Design</p>
+                            <p className="text-white/80 text-xs">A travel community platform connecting explorers worldwide.</p>
                         </div>
                         <a href="https://www.behance.net/gallery/224617065/Travel-Tribes/modules/1283550175" target="_blank" rel="noopener noreferrer"
                             className="inline-block border border-white/30 text-white text-xs px-3 py-1.5 rounded-lg hover:bg-white hover:text-black transition-all duration-300 w-fit">
@@ -81,7 +80,7 @@ export default function ModernPortfolioSection() {
                 </div>
 
                 {/* WeLux Chauffeur */}
-                <div className="relative bg-gradient-to-br from-zinc-500/90 to-zinc-700/90 rounded-xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 border border-white/10 hover:scale-105 transition-transform duration-300 overflow-hidden">
+                <div className="relative bg-gradient-to-br from-zinc-700/90 to-zinc-900/90 rounded-xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 border border-white/10 hover:scale-105 transition-transform duration-300 overflow-hidden">
                     <div className="relative h-full flex flex-col justify-between">
                         <div>
                             <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white">WeLux Chauffeur</h3>
@@ -99,7 +98,7 @@ export default function ModernPortfolioSection() {
                 </div>
 
                 {/* Durkha Elixirs */}
-                <div className="relative bg-gradient-to-br from-neutral-300/90 to-neutral-900/90 rounded-xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 border border-white/10 hover:scale-105 transition-transform duration-300 overflow-hidden">
+                <div className="relative bg-gradient-to-br from-neutral-500/90 to-neutral-900/90 rounded-xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 border border-white/10 hover:scale-105 transition-transform duration-300 overflow-hidden">
                     <div className="relative h-full flex flex-col justify-between">
                         <div>
                             <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white">Durkha Elixirs</h3>
@@ -117,7 +116,7 @@ export default function ModernPortfolioSection() {
                 </div>
 
                 {/* GoZentric */}
-                <div className="relative bg-gradient-to-br from-emerald-100/90 to-green-200/90 rounded-xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 border border-white/10 hover:scale-105 transition-transform duration-300 overflow-hidden">
+                <div className="relative bg-gradient-to-br from-teal-800/90 to-teal-900/90 rounded-xl p-4 sm:p-6 lg:p-8 h-64 sm:h-72 md:h-80 lg:h-96 border border-white/10 hover:scale-105 transition-transform duration-300 overflow-hidden">
                     <div className="relative h-full flex flex-col justify-between">
                         <div>
                             <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white">GoZentric</h3>
@@ -135,7 +134,7 @@ export default function ModernPortfolioSection() {
                 </div>
 
                 {/* Extra space */}
-                <div className="col-span-full h-20"></div>
+                <div className="col-span-full h-186 sm:h-20 md:h-24 lg:h-92"></div>
             </div>
         </section>
     );
