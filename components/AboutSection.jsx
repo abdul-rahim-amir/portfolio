@@ -2,10 +2,10 @@
 
 import {
   SiNextdotjs,
-  SiMongodb,
+  SiCloudinary,
   SiFirebase,
   SiReact,
-  SiNodedotjs,
+  SiSwagger,
   SiHtml5,
   SiCss3,
   SiJavascript,
@@ -59,10 +59,10 @@ export default function AboutSection() {
           viewport={{ once: true }}
         >
           <p className="text-gray-400 leading-relaxed mt-8 md:mt-60 mb-8">
-            I’m a <span className="font-semibold text-gray-100">MERN Stack Developer</span> and{" "}
+            I’m a <span className="font-semibold text-gray-100">Frontend Developer</span> and{" "}
             <span className="font-semibold text-gray-100">UI/UX Designer</span> skilled in{" "}
             <span className="font-semibold text-gray-100">
-              MongoDB, Express.js, React, Next.js, Node.js, Firebase,
+              React, Next.js, Firebase, Cloudinary, Swagger,
             </span>{" "}
             and <span className="font-semibold text-gray-100">Figma, Adobe XD</span>. I create fast,
             user-friendly web apps and engaging designs that deliver results.
@@ -106,10 +106,10 @@ export default function AboutSection() {
       >
         {[
           { icon: <SiNextdotjs className="text-white" />, label: "Next.js" },
-          { icon: <SiMongodb className="text-green-500" />, label: "MongoDB" },
+          { icon: <SiCloudinary className="text-blue-400" />, label: "Cloudinary" },
           { icon: <SiFirebase className="text-yellow-500" />, label: "Firebase" },
           { icon: <SiReact className="text-blue-400" />, label: "React" },
-          { icon: <SiNodedotjs className="text-green-400" />, label: "Node.js" },
+          { icon: <SiSwagger className="text-green-400" />, label: "Swagger" },
           { icon: <SiHtml5 className="text-orange-500" />, label: "HTML" },
           { icon: <SiCss3 className="text-blue-500" />, label: "CSS" },
           { icon: <SiJavascript className="text-yellow-400" />, label: "JavaScript" },

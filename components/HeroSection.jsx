@@ -103,13 +103,13 @@ export default function HeroSection() {
                     transition={{ duration: 0.8, delay: 0.7 }}
                     className="text-center text-gray-300 text-sm md:text-base max-w-xl leading-relaxed"
                 >
-                    UI/UX Designer & Web Developer at{" "}
+                    UI/UX Designer & Frontend Developer at{" "}
                     <Link
-                        href="https://nodesbyte.com"
+                        href="https://winlogics.com"
                         target="_blank"
                         className="underline hover:text-white"
                     >
-                        Nodesbyte
+                        Winlogics
                     </Link>
                     , currently offering my services online to clients worldwide.
                 </motion.p>

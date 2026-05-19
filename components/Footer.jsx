@@ -30,7 +30,7 @@ export default function Footer() {
                     <div>
                         <h2 className="text-2xl font-bold mb-4">ABDUL RAHIM</h2>
                         <p className="text-sm text-gray-400 leading-relaxed">
-                            MERN Stack Developer & UI/UX Designer building fast, user-friendly web apps and creating modern, engaging designs.
+                            Frontend Developer & UI/UX Designer building fast, user-friendly web apps and creating modern, engaging designs.
                         </p>
                     </div>
 
@@ -49,10 +49,10 @@ export default function Footer() {
                         </p>
                         <p>
                             <a
-                                href="mailto:chaudharyabdulrahimamir@gmail.com"
+                                href="mailto:developer.emrahim@gmail.com"
                                 className="text-gray-400 hover:text-blue-500 transition"
                             >
-                                chaudharyabdulrahimamir@gmail.com
+                                developer.emrahim@gmail.com
                             </a>
                         </p>
                     </div>

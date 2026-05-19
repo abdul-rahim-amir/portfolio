@@ -8,9 +8,9 @@ import { HiArrowUpRight } from "react-icons/hi2";
 export default function WhyChooseMe() {
   const features = [
     {
-      title: "MERN Stack Expertise",
+      title: "Frontend Development Expertise",
       description:
-        "Skilled in MongoDB, Express.js, React.js, and Node.js — I build high-performance, scalable web applications with clean, maintainable code.",
+        "Skilled in React.js, Next.js, Cloudinary, and Swagger — I build high-performance, scalable web applications with clean, maintainable code.",
     },
     {
       title: "UI/UX Excellence",
